@@ -21,13 +21,13 @@ end
 %% Extract data for the designated country
 id=find(strcmp(TBL(:,1),iso_code));
 %% Data extraction
-dataid=cell2mat(TBL(id,4));
+dataid=cell2mat(TBL(id,5));
 idx=id(dataid>mintot);
 t=[0:length(idx)-1];
-country=cell2mat(TBL(idx(1),2));
-date=TBL(idx,3);
-total_cases=cell2mat(TBL(idx,4));
-new_cases=cell2mat(TBL(idx,5));
+country=cell2mat(TBL(idx(1),3));
+date=TBL(idx,4);
+total_cases=cell2mat(TBL(idx,5));
+new_cases=cell2mat(TBL(idx,6));
 
 figure
 semilogy(t,total_cases,'o')
