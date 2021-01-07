@@ -7,7 +7,8 @@ The script **plotLogLetoutput.m** reads the standard output of the Loglet Lab 4 
 
 Two examples are provided in the folder "Examples", each of them contains the data already processed with Loglet Lab and can be used for plotting via **plotLogLetoutput.m**.
 
-The project is related to the mathematical model considered in the work  
+The project is related to the mathematical models considered in the works  
 - [Postnikov, E.B. Estimation of COVID-19 dynamics “on a back-of-envelope”: Does the simplest SIR model provide quantitative parameters and predictions? *Chaos, Solitons & Fractals* **135** (2020) 109841](https://www.sciencedirect.com/science/article/pii/S0960077920302411)
+- [Postnikov, E.B. Reproducing country-wide COVID-19 dynamics can require the usage of a set of SIR systems. *PeerJ* **9** (2021) e10679](https://doi.org/10.7717/peerj.10679)
 
 and provides an extended code with better usability.
